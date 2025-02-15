@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-Basics/01-Basics.iml" filepath="$PROJECT_DIR$/01-Basics/01-Basics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-OOPS/02-OOPS.iml" filepath="$PROJECT_DIR$/02-OOPS/02-OOPS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-Collections/03-Collections.iml" filepath="$PROJECT_DIR$/03-Collections/03-Collections.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-Exceptions/04-Exceptions.iml" filepath="$PROJECT_DIR$/04-Exceptions/04-Exceptions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-Multithreading/05-Multithreading.iml" filepath="$PROJECT_DIR$/05-Multithreading/05-Multithreading.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JavaBasics.iml" filepath="$PROJECT_DIR$/JavaBasics.iml" />
+    </modules>
+  </component>
+</project>
