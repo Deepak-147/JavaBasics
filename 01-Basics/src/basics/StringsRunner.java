@@ -31,9 +31,6 @@ public class StringsRunner {
 	    sb.setCharAt(1, 'o');
 	    System.out.println(sb); // holloworld
 	    
-	    sb.equals("");
-	    sb.length();
-	    
 	    String s4 = "This is Test";
 	    System.out.println(s4.charAt(0)); //T; s4[0]; this doesn’t work in JAVA
 	    System.out.println(s4.substring(1,3)); //hi
@@ -59,14 +56,12 @@ public class StringsRunner {
         System.out.println(ca); // ehllo
         
         char ch = 'a';
-        System.out.println(ch);
+        System.out.println(ch); // a
         ch = 90;
-        System.out.println(ch);
+        System.out.println(ch); // Z
         
         Character chh = 'a';
         System.out.println(Character.isLetter(chh)); // true
-    
-        
         System.out.println(Character.isDigit(chh)); // false
         System.out.println(Character.isUpperCase(chh)); // false
         System.out.println(Character.toUpperCase(chh)); // A

@@ -1,8 +1,8 @@
 /**
  * 
  * Unchecked Exceptions
- * Unchecked exceptions are the exceptions that are not checked at compile-time.
- * Examples: NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException.
+ * Unchecked exceptions are the exceptions that are not checked at compile-time. These are the exceptions that the Java compiler does not require us to handle.
+ * Examples: NullPointerException, ArrayIndexOutOfBoundsException, ArithmeticException, IllegalArgumentException
  *
  */
 public class UncheckedExceptionsRunner {

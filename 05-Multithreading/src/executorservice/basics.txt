@@ -1,0 +1,7 @@
+- ExecutorService provides a higher-level API for managing threads and asynchronous tasks.
+- It abstracts thread creation, management, and scheduling, making concurrent programming easier and safer.
+- It provides a pool of threads and API for assigning tasks to the threads in the pool.
+- ExecutorService can execute Runnable and Callable tasks.
+- It supports various types of thread pools, such as fixed thread pool, cached thread pool, and scheduled thread pool.
+- A Runnable task implements the Runnable interface and does not return a result. It is used for tasks that perform actions without needing to return a value. For example: logging, sending notifications, etc.
+- A Callable task implements the Callable interface and returns a result. It is used for tasks that need to return a value or throw checked exceptions. For example: fetching data from a database, performing calculations, etc.

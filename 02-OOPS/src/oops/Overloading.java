@@ -2,19 +2,17 @@ package oops;
 
 /**
  * Polymorphism: means many forms
- * It allows objects of different types to be treated as if they are of a common type.
- * In simpler terms, think of it like this: imagine you have a remote control with buttons, and no matter what device you point it at—a TV, a DVD player, or a stereo—it knows how to control it. 
- * Similarly, in programming, polymorphism allows you to use a common interface (like a remote control) to work with different types of objects (like devices) without needing to know their specific types at compile time.
+ * It allows objects of different types to be treated as if they are of a common type. <br>
+ * In simpler terms, think of it like this: imagine you have a remote control with buttons, and no matter what device you point it at a TV, a DVD player, or a stereo, it knows how to control it. <br>
+ * Similarly, in programming, polymorphism allows you to use a common interface (like a remote control) to work with different types of objects (like devices) without needing to know their specific types at compile time. <br><br>
  * 
- * Two main types of Polymporphism: Compile-time and Run-time
+ * Java supports two types of polymorphism: <br><br>
+ * 1. Compile-time Polymorphism (Method Overloading) or Static binding: Compiler determines which overloaded method to call based on the method signature during compilation. <br>
+ * 2. Run-time Polymorphism (Method Overriding) or Dynamic binding or Dynamic Method Dispatch: The determination of which method to execute is made at runtime based on the actual type of the object, not the reference type. <br><br>
  * 
- * Java supports two types of polymorphism:
- * 1. Compile-time Polymorphism (Method Overloading) or Static binding: Compiler determines which overloaded method to call based on the method signature during compilation.
- * 2. Run-time Polymorphism (Method Overriding) or Dynamic binding or Dynamic Method Dispatch: The determination of which method to execute is made at runtime based on the actual type of the object, not the reference type.
- * 
- * We can implement method overloading in two different ways:
-   - implementing two or more methods that have the same name but take different numbers of arguments
-   - implementing two or more methods that have the same name but take arguments of different types
+ * We can implement method overloading in two different ways: <br><br>
+   - implementing two or more methods that have the same name but take different numbers of arguments <br>
+   - implementing two or more methods that have the same name but take arguments of different types <br><br>
  * */
 public class Overloading {
 

@@ -1,3 +1,19 @@
+/**
+ * In Java, the code can experience errors while executing our instructions.
+ * Good exception handling can handle errors gracefully and give the user still a positive experience.
+ * We need to make sure that our code has a plan for when things go wrong.
+ *
+ * Ultimately, exceptions are just Java objects with all of them extending from Throwable
+ * 				  ---> Throwable <---
+ *               |    (checked)     |
+ *               |                  |
+ *               |                  |
+ *       ---> Exception           Error
+ *       |    (checked)        (unchecked)
+ *       |
+ * RuntimeException
+ * (unchecked)
+ */
 public class ExceptionHandlingRunner2 {
 
 	public static void main(String[] args) {
@@ -19,7 +35,7 @@ public class ExceptionHandlingRunner2 {
 		// Strategies to handle the Exception.
 		catch (NullPointerException ex) {
 			System.out.println("NULL POINTER EXCEPTION");
-			ex.printStackTrace(); 
+			ex.printStackTrace();
 		}
 		catch (Exception ex) {
 			ex.printStackTrace();

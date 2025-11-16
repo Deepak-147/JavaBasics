@@ -31,10 +31,10 @@ public class ArraysRunner {
 
 		System.out.println(arr2.length); // 3; length is property
 
-/***********************
- * Arrays class and its static methods
- * Arrays class is a class containing static methods that are used with arrays in order to search, sort, compare, insert elements, or return a string representation of an array. It works with primitive types (int[], double[], etc.) and object arrays (String[], Integer[], etc.).
- ***********************/
+		/***********************
+		 * Arrays class and its static methods
+		 * Arrays class is a class containing static methods that are used with arrays in order to search, sort, compare, insert elements, or return a string representation of an array. It works with primitive types (int[], double[], etc.) and object arrays (String[], Integer[], etc.).
+		 ***********************/
 
 		System.out.println(Arrays.equals(arr1, arr2)); // false; Returns true if the two specified arrays of ints are equal to one another.
 

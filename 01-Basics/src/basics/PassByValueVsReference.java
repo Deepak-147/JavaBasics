@@ -15,21 +15,21 @@ class Person {
 public class PassByValueVsReference {
 
 	public static void main(String[] args) {
-		
+		int num = 10;
 		// Primitives
 		// copy of the value is passed to the method
-		int num = 5; 
 		modify(num);
 		System.out.println("num after modify(): "+num);
 		
 		// Object
 		// copy of the reference is passed to the method
-		Person p = new Person(); 
+		Person p = new Person();
 		p.name="Hello";
 		modify(p);
 		System.out.println("p.name after modify(): "+p.name);
 	}
 
+	// This is static because main is static, and static methods can only call other static methods directly
 	private static void modify(Person p) {
 		p.name="Hi";
 	}
